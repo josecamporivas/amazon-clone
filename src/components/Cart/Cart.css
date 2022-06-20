@@ -1,0 +1,26 @@
+#cart{
+    margin-right: 10px;
+    margin-left: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+#itemsInCart{
+    font-size: 25px;
+    margin-bottom: -20px;
+    margin-right: 10px;
+    color: #FF9900;
+    z-index: 1;
+
+}
+
+#cartIcon{
+    width: 40px;
+}
+
+#cart-text{
+    font-weight: bold;
+    margin-right: 10px;
+}

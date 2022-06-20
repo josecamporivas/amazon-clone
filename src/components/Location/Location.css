@@ -1,0 +1,25 @@
+#location-navbar{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+
+#locationIcon{
+    width: 16px;
+    height: 22px;
+}
+
+#containerTextLocation{
+    display: flex;
+    flex-direction: column;
+}
+
+#upper-text{
+    color: rgb(179, 171, 171);
+}
+
+#lower-text{
+    font-weight: bold;
+}
