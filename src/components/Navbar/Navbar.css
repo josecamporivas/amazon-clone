@@ -1,4 +1,4 @@
-#navbar{
+#navbar-top{
     padding: 8px 8px 8px 5px;
     background-color: #000;
     display: flex;
@@ -15,4 +15,22 @@
     padding: 10px;
     width: 100px;
     height: fit-content;
+}
+
+#navbar-bottom{
+    padding: 4px 0;
+    display: flex;
+    column-gap: 10px;
+    background-color: rgb(33, 49, 66);
+}
+
+#navbar-bottom a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    padding: 3px;
+}
+
+#navbar-bottom a:hover{
+    border: 1px solid white
 }
