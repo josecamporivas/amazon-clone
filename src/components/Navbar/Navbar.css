@@ -20,17 +20,28 @@
 #navbar-bottom{
     padding: 4px 0;
     display: flex;
+    align-items: center;
     column-gap: 10px;
     background-color: rgb(33, 49, 66);
 }
 
-#navbar-bottom a{
+#navbar-bottom a, #navbar-bottom p{
     text-decoration: none;
     color: white;
     border: 1px solid transparent;
     padding: 3px;
+    cursor: pointer;
 }
 
-#navbar-bottom a:hover{
-    border: 1px solid white
+#navbar-bottom a:hover, #navbar-bottom p:hover{
+    border: 1px solid white;
+}
+
+#button-close-sidebar{
+    position: absolute;
+    top: 10px;
+    left: 22%;
+    height: 30px;
+    filter: invert(1);
+    cursor: pointer;
 }
